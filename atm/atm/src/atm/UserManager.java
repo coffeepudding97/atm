@@ -63,4 +63,13 @@ public class UserManager {
 		
 		return code;
 	}
+	
+	public void leaveUser() {
+		String id = Atm.scanner.next();
+		if(duplId(id)) {
+			
+		}
+	}
+	
+	
 }

@@ -81,8 +81,8 @@ public class Atm {
 //				fileManager.saveFile();
 //			else if(select==LOAD_FILE)
 //				fileManager.loadFile();
-			else if(select==QUIT)
-				break;
+//			else if(select==QUIT)
+//				break;
 		}
 	}
 	private int inputNumber(String msg) {

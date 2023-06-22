@@ -8,10 +8,9 @@ package atm;
  * ㄴ 파일처리(저장/로드)
  */
 public class _Main {
-
-		// TODO Auto-generated method stub
+	public static void main(String[]args) {
 		Atm system = new Atm("그린뱅크");
 		system.run();
-	
+	}
 
 }
