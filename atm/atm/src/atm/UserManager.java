@@ -82,6 +82,10 @@ private AccountManager accManager = AccountManager.getInstance();
 		
 		return code;
 	}
+	
+	public void leaveUser() {
+		
+	}
 
 	
 	

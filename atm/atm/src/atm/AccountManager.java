@@ -23,6 +23,7 @@ private ArrayList<Account> list = new ArrayList<Account>();
 		// AccountManager 의 list 에 추가된 객체를 생성과 동시에 반환 받음
 		// -> User 객체가 가진 acc 즐겨찾기 목록에도 추가 
 		ArrayList<Account> accs = user.getAccs();
+		accs.add(acc);
 		user.setAccs(accs);
 		
 		return acc;
